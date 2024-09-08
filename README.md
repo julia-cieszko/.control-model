@@ -1,0 +1,6 @@
+# .control - A smart tool supporting melanoma diagnosis
+[.Control](https://github.com/julia-cieszko/.control/tree/master) is an application for scoring benigns as malignant or not and therefore supporting early diagnosis of melanoma based on CNN trained on open datasets of ISIC.
+This repository is a part of .control app project. For detailed description of different modules and technologies, check the [main repository](https://github.com/julia-cieszko/.control/tree/master).
+
+## What's in this repository?
+This Jupyter Notebook was used to train the CNN responsible for marking the benigns as malignant or non-malignant. The artificial intelligence model was developed using the TensorFlow package, which includes all the necessary functionalities for creating a custom convolutional neural network: from loading and processing input data to building, training, and using the model. To achieve the highest possible model quality parameters, instead of the basic layered architecture of a sequential convolutional network model, the DenseNet-121 architecture was used, allowing for more effective extraction and analysis of image features. After additional augmentation, the neural network achieved a classification accuracy of 94% on the training set and 87% on the test set.
